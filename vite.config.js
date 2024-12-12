@@ -10,6 +10,6 @@ export default defineConfig({
         secure: false,
       },
     },
-  },
+  },base: "/frontend",
   plugins: [react()],
 });
